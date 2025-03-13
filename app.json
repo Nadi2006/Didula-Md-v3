@@ -1,0 +1,23 @@
+{
+  "name": "Didula-MD",
+  "description": "Didula-MD has been designed to make things easier and fun while using WhatsApp. ❤️",
+  "logo": "https://i.ibb.co/tC37Q7B/20241220-122443.jpg",
+  "keywords": ["didulamd", "bot", "whatsapp bot", "multi device", "didula-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Paste Your PRABATH-MD session",
+            "required": true,
+            "value": ""
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+
+
+}
